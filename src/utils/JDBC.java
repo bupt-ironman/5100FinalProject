@@ -8,8 +8,6 @@ public class JDBC {
   static public getInstance() {
     if (_instance == null) {
       _instance = new JDBC();
-    } else {
-      return;
     }
     return _instance;
   }
