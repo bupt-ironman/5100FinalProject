@@ -5,7 +5,7 @@ import java.sql.*;
 public class JDBC {
   private Statement stmt;
   private static JDBC _instance;
-  static public getInstance() {
+  static public JDBC getInstance() {
     if (_instance == null) {
       _instance = new JDBC();
     }
